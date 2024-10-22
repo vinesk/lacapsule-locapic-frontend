@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "locapic-part4",
-    "slug": "locapic-part4",
+    "name": "locapic",
+    "slug": "locapic",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2cd099a3-d383-40a1-9143-b88465ce5eff"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -28,6 +29,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2cd099a3-d383-40a1-9143-b88465ce5eff"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
